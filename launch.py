@@ -34,6 +34,7 @@ class App(customtkinter.CTk):
 
         self.title("FB Launcher")
         self.geometry("700x400")
+        self.resizable(False)
 
         # set grid layout 1x2
 
